@@ -1,4 +1,5 @@
 import React from 'react'
+import { BtnPrimary } from '../BtnPrimary'
 
 export const ObjetosLiterales = () => {
 
@@ -14,11 +15,12 @@ export const ObjetosLiterales = () => {
                 <li>Console.table</li>
                 <li>Operador Spread</li>
             </ul>
-            <div className="row justify-content-center">
-                <div className="col-8 text-center">
-                    <a className="btn btn-primary btn-sm d-grid " href="https://developer.mozilla.org/es/docs/Web/JavaScript/Guide/Working_with_Objects" role="button" target="_blanck"> Objetos Literales</a>        
-                </div>
-            </div>
+
+            <BtnPrimary
+                url={'https://developer.mozilla.org/es/docs/Web/JavaScript/Guide/Working_with_Objects'}
+                targ={'_blanck'}
+                btnTxt={' Objetos Literales'}
+            />
             <hr />
         </>
     )

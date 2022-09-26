@@ -1,8 +1,7 @@
 import React from 'react'
+import { BtnPrimary } from '../BtnPrimary'
 
 export const VarConstLet = () => {
-
-
 
     return (
         <>
@@ -24,6 +23,17 @@ export const VarConstLet = () => {
                 <li>Fragmet</li>
                 <li>Function</li>
             </ul>
+            <BtnPrimary 
+                url={'https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Statements/const'}
+                targ={'_blank'}
+                btnTxt={'CONST'}
+            />
+            <BtnPrimary 
+                url={'https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Statements/let'}
+                targ={'_blank'}
+                btnTxt={'LET'}
+            />
+
             <hr />
         </>
 
