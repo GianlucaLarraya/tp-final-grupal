@@ -3,6 +3,22 @@ import { BtnPrimary } from '../BtnPrimary';
 
 export const JsFunction = () => {
 
+  function funcionUno( valor ) {
+      return valor * valor
+  }
+
+
+  console.log(funcionUno(4))
+  
+
+  const saludar = function(nombre) {
+    console.log('Hola '+ nombre)
+  }
+
+  saludar('Claudio')
+  
+
+
 
   return (
     <>

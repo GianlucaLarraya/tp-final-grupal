@@ -3,6 +3,22 @@ import { BtnPrimary } from '../BtnPrimary'
 
 export const VarConstLet = () => {
 
+    const nombre = 'Claudio'
+    const apellido = 'Uccello'
+    let edad = 35
+
+    
+    
+    console.log(nombre, apellido)
+    console.log(edad)
+    console.log(edad + nombre)
+    edad = 46
+    
+    console.log(edad)
+
+    console.log(nombre + ' ' + apellido)
+
+
     return (
         <>
             <h2>Var Const Let</h2>

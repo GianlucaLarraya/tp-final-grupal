@@ -11,10 +11,11 @@ function App() {
 
   return (
     <>
-      <VarConstLet />
+      
+      {/* <VarConstLet />
       <TemplateString />
-      <ObjetosLiterales />
-      <JsArray />
+      <ObjetosLiterales /> */}
+      {/* <JsArray /> */}
       <JsFunction />
       
     </>

@@ -3,6 +3,45 @@ import { BtnPrimary } from '../BtnPrimary'
 
 export const JsArray = () => {
 
+    const numbers = [2,4,6] 
+    const frutas = ['anana', 'pera', 'mango'] 
+
+    console.log(frutas)
+    
+    frutas.pop()
+    
+    console.log(frutas)
+    
+    frutas.push('mango')
+    console.log(frutas)
+    
+    console.log(numbers)
+
+   console.log(numbers)
+
+    const jsArray = []
+        jsArray.push(1)
+        jsArray.push(2)
+        jsArray.push(3)
+        jsArray.push(4)
+
+    console.log(jsArray)
+
+    // const jsArray3 = jsArray.map(function (numbre) {
+    //     return numbre * 2
+    // })
+
+    const jsArray3= jsArray.map( 
+        function (elemento) {
+            return elemento *2
+        }
+    
+    )
+
+    console.log(jsArray)
+
+    console.log(jsArray3)
+
     
   return (
       <>
