@@ -1,6 +1,9 @@
 import React from 'react'
 import { BtnPrimary } from '../BtnPrimary'
 
+
+
+
 export const DesestArray = () => {
 
     const personajes = ['Goku', 'Vegeta', 'Trunks']
@@ -11,6 +14,7 @@ export const DesestArray = () => {
  
     // 3 Array con funciones - Ejecucuón
 
+    
 
   return (
     <>

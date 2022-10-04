@@ -1,4 +1,4 @@
-export const productos = [
+const productos = [
     {
         id: 'sku001',
         title: 'Producto 01',
@@ -36,3 +36,8 @@ export const productos = [
     },
 ]
 
+
+export {
+    productos,
+
+}
