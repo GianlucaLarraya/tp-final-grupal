@@ -4,7 +4,7 @@ import { BtnPrimary } from '../BtnPrimary'
 export const JsArray = () => {
 
     const numbers = [2,4,6] 
-    const frutas = ['anana', 'pera', 'mango'] 
+    const frutas = ['ananá', 'pera', 'mango'] 
 
     console.log(frutas)
     

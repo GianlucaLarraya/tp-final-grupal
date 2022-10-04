@@ -7,7 +7,7 @@ export const ObjetosLiterales = () => {
         nombre: 'Claudio',
         apellido: 'Uccello',
         edad: 46,
-        direcion: {
+        address: {
             calle: 'calle uno',
             puerta: 1234,
             zip: 1419,
@@ -20,7 +20,7 @@ export const ObjetosLiterales = () => {
 
     console.log(persona)
 
-    console.log(persona.direcion.puerta)
+    console.log(persona.address.puerta)
 
     const persona2 = {...persona}
     

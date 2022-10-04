@@ -36,7 +36,7 @@ export const VarConstLet = () => {
             </ul>
             <h6>Temas relacionados</h6>
             <ul>
-                <li>Fragmet</li>
+                <li>Fragment</li>
                 <li>Function</li>
             </ul>
             <BtnPrimary 

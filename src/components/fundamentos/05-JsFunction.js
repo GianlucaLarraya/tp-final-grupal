@@ -4,7 +4,7 @@ import { BtnPrimary } from '../BtnPrimary';
 export const JsFunction = () => {
 
   function funcionUno( valor ) {
-      return valor * valor
+      return valor * valor 
   }
 
 
@@ -16,9 +16,14 @@ export const JsFunction = () => {
   }
 
   saludar('Claudio')
+
+  // Función en const
+
+  // Función de Flecha
+
+  // Retorno implícito
+
   
-
-
 
   return (
     <>
