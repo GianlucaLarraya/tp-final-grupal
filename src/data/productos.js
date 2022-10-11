@@ -36,8 +36,23 @@ const productos = [
     },
 ]
 
+const navButtos =[
+    {
+        link: '#',
+        text: 'Home',
+    },
+    {
+        link: '#',
+        text: 'Tema 01',
+    },
+    {
+        link: '#',
+        text: 'Contactos',
+    },
+]
 
 export {
     productos,
+    navButtos
 
 }

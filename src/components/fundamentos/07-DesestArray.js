@@ -7,13 +7,11 @@ import { BtnPrimary } from '../BtnPrimary'
 export const DesestArray = () => {
 
     const personajes = ['Goku', 'Vegeta', 'Trunks']
+    // console.log(personajes)
 
     // 1 mediante comas elejimos la posición del array
 
-    // 2 
- 
-    // 3 Array con funciones - Ejecucuón
-
+    // 2 Crear una Array por medio de una función de flecha
     
 
   return (

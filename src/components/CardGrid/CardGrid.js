@@ -4,7 +4,7 @@ import { BtnMain } from '../BtnMain'
 
 export const CardGrid = ({data}) => {
     const filtrado = (data)=>{
-        console.log(data)
+        // console.log(data)
     }
     filtrado()
   return (

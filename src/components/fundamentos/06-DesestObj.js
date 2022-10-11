@@ -9,8 +9,14 @@ export const DesestObj = () => {
         clave: 'Ironman',
         // rango: 'Lider de equipo', 
     }
+    const persona2 ={
+        nombre: 'Steve',
+        edad: 77,
+        clave: 'Capitán América',
+        // rango: 'Lider de equipo', 
+    }
 
-    console.log(persona)
+    // console.log(persona)
     // 1 Notación por punto
 
     // 2 Desesctructuración de Objetos

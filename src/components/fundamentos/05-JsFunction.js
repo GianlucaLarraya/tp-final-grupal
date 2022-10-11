@@ -21,6 +21,12 @@ export const JsFunction = () => {
 
   // Función de Flecha
 
+  const arrow = () => {
+    console.log('Arrow Function')
+  }
+
+  arrow()
+
   // Retorno implícito
 
   

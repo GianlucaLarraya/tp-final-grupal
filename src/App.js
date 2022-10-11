@@ -11,31 +11,23 @@ import { productos } from "./data/productos";
 import { DesestObj } from "./components/fundamentos/06-DesestObj";
 import { MiPrimerComp } from "./components/MiPrimerComp/MiPrimerComp";
 import { DesestArray } from "./components/fundamentos/07-DesestArray";
+import { NavBar } from "./components/NavBarPP/NavBar";
+import { Footer } from "./components/Footer/Footer";
+import { HeroBanner } from "./components/HeroBanner/HeroBanner";
+import { Map } from "./components/fundamentos/04-1-Map";
 
 
 function App() {
   //  console.log(dataProducts)
   return (
     <>
-      <MiPrimerComp />
+    <DesestArray />
+    <Map />
+    <NavBar />
+    <HeroBanner />
+      <CardGrid data={productos} />
+    <Footer />
 
-      <VarConstLet />
-
-      <TemplateString />
-
-      <ObjetosLiterales />
-
-      <JsArray /> 
-
-      {/* Aplicación de .map */}
-      {/* <CardGrid data={productos}  /> */}
-
-      <JsFunction />
-
-      {/* <DesestObj /> */}
-      
-      {/* <DesestArray /> */}
-      
     </>
   );
 }
