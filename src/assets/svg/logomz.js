@@ -2,7 +2,7 @@ import React from 'react'
 
 export const LogoSvg = ({ iconFill ='#2CBCBC', iconWidht='100'}) => {
     const ToNum = parseInt(iconWidht,10)
-    const AutoHeigth = (ToNum * 0.26)
+    const AutoHeigth = (ToNum * 0.50)
     const iconHeigth = AutoHeigth.toString(10)
   return (
     

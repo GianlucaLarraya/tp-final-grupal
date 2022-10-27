@@ -1,0 +1,19 @@
+.hero {
+    background-image: url(C:\Users\Juan\Desktop\MZSolutionsReact\my-app\src\assets\img\hero.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+h1,h2,h3,h4,h5,
+.display-4 {
+    color:black;
+    font-weight: 700;
+}
+
+.btn {
+    padding: 14px 14px;
+    border-color: violet;
+    border-width: 2px;
+    border-radius: 0;
+}
