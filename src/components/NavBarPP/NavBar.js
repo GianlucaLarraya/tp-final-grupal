@@ -1,5 +1,7 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { LogoSvg, } from '../../assets/svg/logomz';
+import { navButtos } from '../../data/navButtos';
 import './NavBar.css'
 
 export const NavBar = () => {
@@ -15,23 +17,13 @@ export const NavBar = () => {
           </button>
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ms-auto">
-              <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="#">Home</a>
-              </li>
-              <li class="nav-item">
+            {navButtos.map(
+                            ({ text, link }) => (<li key={text} className='nav-item'>
+                                <Link className='nav-link' aria-current='page' to={link} target='_self'> {text} </Link>
+                            </li>)
+                        )}
+                        <li class="nav-item">
                 <a class="nav-link" href="#servicios">Servicios</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#portfolio">Portfolio</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#team">Team</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#Blog">Blog</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#contacto">Contactanos</a>
               </li>
             </ul>
           </div>
