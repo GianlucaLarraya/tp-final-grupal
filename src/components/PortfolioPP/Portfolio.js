@@ -1,4 +1,5 @@
 import React from 'react';
+import { portimg1, portimg2, portimg3, portimg4 } from '../../assets';
 import './Portfolio.css';
 
 
@@ -20,7 +21,7 @@ export const Portfolio = () => {
          <div class="row row-cols-1 row-cols-md-2 g-4">
             <div class="col">
               <div class="card">
-                <img src="../TP 1/assets/daniele-d-andreti-9Am-iidiO40-unsplash.jpg" class="card-img-top" alt="imagen">
+              <img src={portimg1} class="card-img-top" alt="imagen" />
                 <div class="card-body">
                   <h5 class="card-title">Nescafé</h5>
                   <p class="card-text">Basandonos en la antigua imagen de la marca, embarcamos un rebranding en todos sus productos, comenzando por la vuelta de la clásica taza Nescafé roja</p>
@@ -29,7 +30,7 @@ export const Portfolio = () => {
             </div>
             <div class="col">
               <div class="card">
-                <img src="../TP 1/assets/mk-2-JoMUpNRfxdw-unsplash.jpg" class="card-img-top" alt="imagen">
+              <img src={portimg2} class="card-img-top" alt="imagen" />
                 <div class="card-body">
                   <h5 class="card-title">Castro Capital</h5>
                   <p class="card-text">Nos encargamos de transformar por completo sus redes sociales, ofreciendoles un servicio de generación de contenido, community managment, y por otro lado hemos rediseñado su web para asegurar un mejor alcance y prioridad en los motores de búsqueda.</p>
@@ -38,7 +39,7 @@ export const Portfolio = () => {
             </div>
             <div class="col">
               <div class="card">
-                <img src="../TP 1/assets/04.png" class="card-img-top"  alt="imagen">
+              <img src={portimg3} class="card-img-top" alt="imagen" />
                 <div class="card-body">
                   <h5 class="card-title">Paz Nuts</h5>
                   <p class="card-text">Diseñamos por completo la imagen de marca, generamos una página web priorizando el diseño, y la implementación de técnicas SEO. Ademas generamos contenido para todas sus redes sociales de forma periodica.</p>
@@ -47,7 +48,7 @@ export const Portfolio = () => {
             </div>
             <div class="col">
               <div class="card">
-                <img src="../TP 1/assets/redimensionada.jpg" class="card-img-top" alt="imagen" style= "max-height: 550px">
+              <img src={portimg4} class="card-img-top" alt="imagen"/>
                 <div class="card-body">
                   <h5 class="card-title">Café Fugaz</h5>
                   <p class="card-text">Lanzamiento de la marca junto a influencers precisamente seleccionados. Estrategia de Paid Media para publicitar la marca.</p>

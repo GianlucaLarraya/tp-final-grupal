@@ -1,1 +1,4 @@
-export { default as imageHero } from './img/hero.jpg'
+export { default as portimg1 } from './img/port1.jpg'
+export { default as portimg2 } from './img/port2.jpg'
+export { default as portimg3 } from './img/port3.png'
+export { default as portimg4 } from './img/port4.jpg'
