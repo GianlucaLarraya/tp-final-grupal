@@ -1,8 +1,12 @@
-import React from 'react';
+import React, { useContext } from 'react'
 import './Servicios.css';
 import { productos } from '../../data/productos';
+import { CartContext } from '../CartContextPP/CartContext'
 
 export const Servicios = ({data}) => {
+
+    const { addItemToCart, } = useContext(CartContext)
+
     return (
 
     <section id="servicios">
@@ -17,11 +21,12 @@ export const Servicios = ({data}) => {
             </div>
             <div class="row g-4">
                     {productos.map(
-                            ({ name, text, id }) => (
-                                <div class="col-lg-4 col-sm-6">
-                                    <div class="card" key={id}>
-                                      <h5 class="mt-4 mb-2">{name}</h5>
-                                      <p>{text}</p>
+                            (product, i) => (
+                                <div key={i} class="col-lg-4 col-sm-6">
+                                    <div class="card">
+                                      <h5 class="mt-4 mb-2">{product.title}</h5>
+                                      <p>{product.text}</p>
+                                      <button className='btn btn-primary' onClick={()=> addItemToCart(product)}>Contratar servicio -${product.price}</button>
                                     </div>
                                 </div>
                             )

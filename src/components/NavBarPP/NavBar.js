@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { LogoSvg, } from '../../assets/svg/logomz';
 import { navButtos } from '../../data/navButtos';
+import { Cart } from '../CartPP/Cart';
 import './NavBar.css'
 
 export const NavBar = () => {
@@ -24,6 +25,9 @@ export const NavBar = () => {
                         )}
                         <li class="nav-item">
                 <a class="nav-link" href="#servicios">Servicios</a>
+              </li>
+              <li>
+                <Cart />
               </li>
             </ul>
           </div>
