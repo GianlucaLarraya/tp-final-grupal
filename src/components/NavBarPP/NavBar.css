@@ -6,3 +6,8 @@
     font-size: 15px;
     font-weight: 600;
 }
+
+.nav-item {
+    display: flex;
+    justify-content: right;
+}

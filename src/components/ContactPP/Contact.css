@@ -1,0 +1,6 @@
+
+form .form-control {
+    border: transparent;
+    border-radius: 0;
+    background-color: var(--claro);
+}

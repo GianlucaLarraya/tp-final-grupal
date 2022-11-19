@@ -1,3 +1,9 @@
+:root {
+    --violeta: rgb(104, 26, 100);
+    --gris: rgba(133, 120, 132, 0.527);
+    --claro:  rgba(154, 137, 152, 0.256);
+}
+
 .hero {
     background-image: url(../../assets/img/hero.jpg);
     background-position: center;
@@ -7,8 +13,24 @@
 
 h1,h2,h3,h4,h5,
 .display-4 {
+    font-family:'Sora', sans-serif;
+    line-height: 1.8;
+    color:var(--violeta);
     color:black;
     font-weight: 700;
+}
+
+p {
+    font-family:'Sora', sans-serif;
+    line-height: 1.8;
+    color:var(--violeta);
+
+}
+
+a {
+    font-family:'Sora', sans-serif;
+    line-height: 1.8;
+    color:var(--violeta);
 }
 
 .btn {

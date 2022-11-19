@@ -1,0 +1,22 @@
+h1,h2,h3,h4,h5,
+.display-4 {
+    color:black;
+    font-weight: 700;
+}
+
+:root {
+    --violeta: rgb(104, 26, 100);
+    --gris: rgba(133, 120, 132, 0.527);
+    --claro:  rgba(154, 137, 152, 0.256);
+}
+
+
+.blogtitle{
+    color: var(--violeta);
+}
+
+.p {
+    font-family:'Sora', sans-serif;
+    line-height: 1.8;
+    color:var(--violeta);
+}

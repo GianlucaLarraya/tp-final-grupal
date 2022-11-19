@@ -1,9 +1,12 @@
 import './App.css';
 import { NavBar } from "./components/NavBarPP/NavBar";
-import { Servicios } from "./components/ServiciosPP/Servicios";
 import { Home } from "./components/pages/Home";
 import { Route, Routes } from 'react-router-dom';
 import { CartProvider } from './components/CartContextPP/CartContext';
+import { Blog } from './components/BlogPP/Blog';
+import { BlogPage } from './components/pages/BlogPage';
+import { Portfolio } from './components/PortfolioPP/Portfolio';
+import { PortfolioPage } from './components/pages/PortfolioPage';
 
 
 function App() {
@@ -16,6 +19,8 @@ function App() {
       <Routes>
 
         <Route path="/" element={<Home />} />
+        <Route path="/blog" element={<BlogPage />} />
+        <Route path="/portfolio" element={<PortfolioPage />} />
         
 
 

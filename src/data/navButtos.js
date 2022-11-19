@@ -4,20 +4,12 @@ const navButtos =[
         text: 'Home',
     },
     {
-        link: 'contact',
+        link: 'portfolio',
         text: 'Portfolio',
     },
     {
-        link: 'contact',
-        text: 'Team',
-    },
-    {
-        link: 'contact',
+        link: 'blog',
         text: 'Blog',
-    },
-    {
-        link: 'contact',
-        text: 'Contactanos',
     },
 ]
 
